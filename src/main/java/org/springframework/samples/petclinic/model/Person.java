@@ -35,11 +35,11 @@ public class Person extends BaseEntity {
     @NotEmpty
     protected String lastName;
 
-    public String getFirstName() {
+    public String getPrenom() {
         return this.firstName;
     }
 
-    public void setFirstName(String firstName) {
+    public void setPrenom(String firstName) {
         this.firstName = firstName;
     }
 
